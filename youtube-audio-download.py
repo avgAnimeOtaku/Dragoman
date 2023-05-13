@@ -4,7 +4,7 @@ import ffmpeg
 
 ydl_opts = {
     'format': 'bestaudio/best',
-    'outtmpl': 'data/%(title)s.%(ext)s',
+    #'outtmpl': 'data/%(title)s.%(ext)s',
     'outtmpl': 'data/audio.%(ext)s',
     'postprocessors': [{
         'key': 'FFmpegExtractAudio',

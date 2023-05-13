@@ -32,7 +32,7 @@ bucket_gcs = gcs.get_bucket("dragoman-audio-files-for-speech-to-text")
 
 
 # Step 4. Upload Files
-gcs.upload_file(bucket_gcs, "audio.wav", r"C:\Users\karti\PycharmProjects\dragoman\data\audio.wav")
+gcs.upload_file(bucket_gcs, "audio.wav", r"data/audio.wav")
 
 # Step 5. Download & Delete Files
 """gcs_demo_blobs = gcs.list_blobs(bucket_gcs)
